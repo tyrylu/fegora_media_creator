@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fegora_media_creator"
+version = "0.1.0"
+description = "An utility for creating the Fegora USB medias."
+authors = ["Lukáš Tyrychtr <lukastyrychtr@gmail.com>"]
+license = "Mit"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+wmi = "^1.4"
+wxpython = "^4.0"
+pywin32 = "^224.0"
+bitmath = "^1.3"
+elevate = "^0.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+fmc = "fegora_media_creator.main:main"
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
