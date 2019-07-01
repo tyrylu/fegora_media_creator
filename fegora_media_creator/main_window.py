@@ -17,3 +17,7 @@ class MainWindow(wx.Frame):
 
     def add_disk(self, disk):
         self._disk_choice.Append(f"{disk.caption}: {size_utils.format_size(disk.size)}")
+
+    @property
+    def selected_disk_index(self):
+        return self._disk_choice.Selection
