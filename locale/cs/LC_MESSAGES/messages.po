@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-02 09:34+0200\n"
+"PO-Revision-Date: 2019-07-02 09:42+0200\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: fegora_media_creator/main_controller.py:25
+msgid "You didn't select a disk to use, please, do so."
+msgstr "Nebyl vybrán disk, který má být použit, prosím, učiňte tak."
+
+#: fegora_media_creator/main_controller.py:25
+msgid "Select a disk"
+msgstr "Zvolit disk"
+
+#: fegora_media_creator/main_controller.py:30
+msgid "Failed to download the image."
+msgstr "Nepodařilo se stáhnout obraz."
+
+#: fegora_media_creator/main_controller.py:30
+msgid "Error"
+msgstr "Chyba"
+
+#: fegora_media_creator/main_controller.py:34
+#, python-brace-format
+msgid ""
+"Do you really want to continue and write the image to {disk_caption}? Be "
+"warned that after this operation all data on {disk_caption} will be "
+"irreversibly lost."
+msgstr ""
+"Opravdu si přejete pokračovat se zápisem obrazu na {disk_caption}? "
+"Uvědomte si, že po této operaci budou všechna data na {disk_caption} "
+"nenávratně ztracena."
+
+#: fegora_media_creator/main_controller.py:34
+msgid "Continue"
+msgstr "Pokračovat"
+
+#: fegora_media_creator/main_controller.py:39
+msgid "The write operation failed, error: {}"
+msgstr "Operace zápisu selhala, chyba: {}"
+
+#: fegora_media_creator/main_controller.py:39
+msgid "Failed to write"
+msgstr "Zápis selhal"
+
+#: fegora_media_creator/main_controller.py:44
+msgid "The image has been successfully written."
+msgstr "Obraz byl úspěšně zapsán."
+
+#: fegora_media_creator/main_controller.py:44
+msgid "Success"
+msgstr "Úspěch"
+
+#: fegora_media_creator/main_controller.py:48
+msgid "Download in progress"
+msgstr "Probíhá stahování"
+
+#: fegora_media_creator/main_controller.py:48
+msgid "Downloading the image."
+msgstr "Stahování obrazu"
+
+#: fegora_media_creator/main_controller.py:50
+#, python-brace-format
+msgid "Downloading the image. Downloaded {so_far} of {total}."
+msgstr "Stahování obrazu. Staženo {so_far} z {total}."
+
+#: fegora_media_creator/main_controller.py:54
+msgid "Writing the image"
+msgstr "Zapisování obrazu"
+
+#: fegora_media_creator/main_controller.py:54
+msgid "Writing the image."
+msgstr "Zapisování obrazu."
+
+#: fegora_media_creator/main_controller.py:56
+#, python-brace-format
+msgid "Writing the image. Written {so_far} of {total}."
+msgstr "Zapisování obrazu. Zapsáno {so_far} z {total}."
+
+#: fegora_media_creator/main_window.py:7
+msgid "Fegora media creator"
+msgstr "Fegora media creator"
+
+#: fegora_media_creator/main_window.py:10
+msgid "Select the disk to use"
+msgstr "Zvolte disk, který chcete použít"
+
+#: fegora_media_creator/main_window.py:12
+msgid "Create media"
+msgstr "Vytvořit médium"
